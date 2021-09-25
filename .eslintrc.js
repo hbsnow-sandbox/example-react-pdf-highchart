@@ -1,3 +1,4 @@
+/* eslint-env node */
 /** @type {import('@typescript-eslint/experimental-utils').TSESLint.Linter.Config} */
 
 const config = {
@@ -18,7 +19,6 @@ const config = {
   env: {
     browser: true,
     amd: true,
-    node: true,
   },
   plugins: ["@typescript-eslint", "react", "import", "jest"],
   extends: [
